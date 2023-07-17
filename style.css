@@ -1,0 +1,30 @@
+body{
+ background: linear-gradient(45deg, #1200b3 0%, #0487d9 50%, #ffffff 100%);
+}
+
+h1{
+    color: white;
+}
+
+.funny{
+ background-color:blueviolet;
+}
+
+#show-sketch{
+    float: right;
+}
+
+p{
+    font-size: 25px;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+@keyframes rotate{
+    100% {
+        transform: rotate(45deg);
+    }
+}
